@@ -421,7 +421,7 @@ footer .social-links {
     footer .social-links{
         display: grid;
         justify-content: center;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 0.2fr;
     }
     footer .social-links li:first-child{
@@ -429,7 +429,7 @@ footer .social-links {
         grid-row: 1/2;
     }
     footer .social-links li:last-child{
-        grid-column: 4/5 ;
+        grid-column: 3/4 ;
         grid-row: 1/2;
     }
 
